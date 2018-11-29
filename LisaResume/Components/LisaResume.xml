@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resume>
+<basics>
+	<name>Lisa Connell</name>
+	<label>Programmer</label>
+	<picture/>
+	<email>connell.lisamarie@gmail.com</email>
+	<phone>(971) 678-6327</phone>
+	<website>http://GitHub.com/LisaMarie</website>
+	<summary>A summary of Lisa Connell...</summary>
+	<location>
+		<address>2712 Broadway St</address>
+		<postalCode>CA 94115</postalCode>
+		<city>San Francisco</city>
+		<countryCode>US</countryCode>
+		<region>California</region>
+	</location>
+	<profiles>
+		<network>Twitter</network>
+		<username>lisa</username>
+		<url>http://twitter.com/Lisa</url>
+	</profiles>
+</basics>
+<work>
+	<company>Company</company>
+	<position>President</position>
+	<website>http://company.com</website>
+	<startDate>2013-01-01</startDate>
+	<endDate>2014-01-01</endDate>
+	<summary>Description...</summary>
+	<highlights>Started the company</highlights>
+</work>
+<volunteer>
+	<organization>Organization</organization>
+	<position>Volunteer</position>
+	<website>http://organization.com/</website>
+	<startDate>2012-01-01</startDate>
+	<endDate>2013-01-01</endDate>
+	<summary>Description...</summary>
+	<highlights>Awarded &apos;Volunteer of the Month&apos;</highlights>
+</volunteer>
+<education>
+	<institution>University</institution>
+	<area>Software Development</area>
+	<studyType>Bachelor</studyType>
+	<startDate>2011-01-01</startDate>
+	<endDate>2013-01-01</endDate>
+	<gpa>4.0</gpa>
+	<courses>DB1101 - Basic SQL</courses>
+</education>
+<awards>
+	<title>Award</title>
+	<date>2014-11-01</date>
+	<awarder>Company</awarder>
+	<summary>There is no spoon.</summary>
+</awards>
+<publications>
+	<name>Publication</name>
+	<publisher>Company</publisher>
+	<releaseDate>2014-10-01</releaseDate>
+	<website>http://publication.com</website>
+	<summary>Description...</summary>
+</publications>
+<skills>
+	<name>Web Development</name>
+	<level>Master</level>
+	<keywords>HTML</keywords>
+	<keywords>CSS</keywords>
+	<keywords>Javascript</keywords>
+</skills>
+<languages>
+	<language>English</language>
+	<fluency>Native speaker</fluency>
+</languages>
+<interests>
+	<name>Wildlife</name>
+	<keywords>Ferrets</keywords>
+</interests>
+<references>
+	<name>Jon Martin</name>
+	<reference>Reference...</reference>
+</references>
+</Resume>

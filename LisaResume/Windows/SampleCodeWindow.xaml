@@ -1,0 +1,24 @@
+﻿<Window x:Class="LisaResume.Windows.SampleCodeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LisaResume.Windows"
+        mc:Ignorable="d"
+        Title="SampleCodeWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,117">
+        <!--<TabControl>
+            <TabItem Header="Notepad">
+                <WindowsFormsHost x:Name="host" />
+            </TabItem>
+        </TabControl>
+        <ComboBox HorizontalAlignment="Left" Height="33" Margin="301,361,0,-92" VerticalAlignment="Top" Width="202">
+            <ComboBoxItem Content="Convert Resume To Json" HorizontalAlignment="Left" Width="200" Background="LightGray" Selected="ListBoxItem_ViewJsonDocumentType_OnSelected"/>
+            <ComboBoxItem Content="Convert Resume To Xml" HorizontalAlignment="Left" Width="200" Selected="ListBoxItem_ViewXmlDocumentType_OnSelected"/>
+            <ComboBoxItem Content="Convert Resume To Html" HorizontalAlignment="Left" Width="200" Selected="ListBoxItem_ViewHtmlDocumentType_OnSelected"/>
+            <ComboBoxItem Content="View Current Resume Type" HorizontalAlignment="Left" Width="200" IsSelected="True" Selected="ListBoxItem_ViewCurrentDocumentType_OnSelected"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Height="49" Margin="32,307,0,-54" TextWrapping="Wrap" VerticalAlignment="Top" Width="735" TextAlignment="Center" FontFamily="Calibri" FontSize="18 "><Run Text="Select the Translate tab at the top and choose a document type to translate the resume into. "/><LineBreak/><Run/><LineBreak/><Run Text="I have designed this app to show off some of the back end code necessary for a C# developer to know. Your developers can look at the code located in the 'Classes' folder in the project to see a sample of my code."/></TextBlock>-->
+        <Frame x:Name="SampleWindow" Margin="0,0,0,0"></Frame>
+    </Grid>
+</Window>

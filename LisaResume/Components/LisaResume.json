@@ -1,0 +1,80 @@
+{
+  "basics": {
+    "name": "Lisa Connell",
+    "label": "Programmer",
+    "picture": "",
+    "email": "connell.lisamarie@gmail.com",
+    "phone": "(971) 678-6327",
+    "website": [
+	"http://github.com/lilmissdev",
+	"http://repl.it/@lilmissdev"
+	],
+    "summary": "Highly ambitious full stack developer with professional experience and education in HTML, CSS, JavaScript, SQL, Python, and C#. Highly organized and detail-oriented professional specializing in exploring customer solutions that work.",
+    "location": {
+      "address": "21303 Fultonham Circle",
+      "postalCode": "VA 20147",
+      "city": "Ashburn",
+      "countryCode": "US",
+      "region": "Virginia"
+    },
+	 "work": [
+	 {"company": "Robert Half", "position": "JR Software QA Tester", "website": "http://wayfair.com", "startDate": "10-2014", "endDate": "09-2017", "summary": "I piloted a liaison position between Wayfair and many of our suppliers. I worked extensively with our SQL databases to collate vast amounts of information necessary to the execution of my duties. During my time at Wayfair I developed problem solving and critical thinking skills that quickly advanced my career to Operations Manager within just 9 months."},
+     {"company": "Wayfair", "position": "Supplier Operations Manager", "website": "http://wayfair.com", "startDate": "10-2014", "endDate": "09-2017", "summary": "I piloted a liaison position between Wayfair and many of our suppliers. I worked extensively with our SQL databases to collate vast amounts of information necessary to the execution of my duties. During my time at Wayfair I developed problem solving and critical thinking skills that quickly advanced my career to Operations Manager within just 9 months."}],
+  "volunteer": [{
+    "organization": "Habitat for Humanity",
+    "position": "Volunteer",
+    "website": "https://www.habitat.org/",
+    "startDate": "2012",
+    "endDate": "2018",
+    "summary": "I painted homes for the elderly who otherwise would have been evicted for HOA violations."
+  }],
+  "education": [{
+    "institution": "Thinkful",
+    "area": "Software Development",
+	"website": "http://www.thinkful.com",
+    "startDate": "03-2018",
+    "endDate": "present",
+    "gpa": "4.0",
+    "courses": [
+      "HTML",
+	  "CSS",
+	  "Javascript",
+	  "C#",
+	  "Python",
+	  "SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "skills": [
+      "HTML",
+	  "CSS",
+	  "Javascript",
+	  "C#",
+	  "Python",
+	  "SQL",
+	  "Defect & Bug Discovery",
+	  "Data management",
+	  "Issue Identification",
+	  "Test Cases, Plans & Scripts",
+	  "Problem Solving",
+	  "Analytical thinking",
+	  "Staff development",
+	  "Team leadership"  
+  ],
+  "interests": [
+	"Rock climbing",
+	"Crochet",
+	"Backpacking",
+	"Playing instruments"
+  ],
+  "references": [
+  {"name": "Jon Martin", "position": "Developer", "company": "SteelCloud LLC", "contact": "928-208-5038"},
+  {"name": "Brock Nusser", "position": "Consultant", "company": "Oracle", "contact": "301-575-6781"}
+  ]
+}
+}

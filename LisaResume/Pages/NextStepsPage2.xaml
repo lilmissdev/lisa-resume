@@ -1,0 +1,34 @@
+﻿<Page x:Class="LisaResume.Pages.NextStepsPage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LisaResume.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NextStepsPage2">
+
+    <Grid>
+
+        <Rectangle>
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="DarkGray" Offset="0.0" />
+                    <GradientStop Color="SlateGray" Offset="0.25" />
+                    <GradientStop Color="MediumPurple" Offset="0.75" />
+                    <GradientStop Color="Purple" Offset="1.0" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" VerticalAlignment="Center" Height="138" Width="467" TextAlignment="Center" FontFamily="Calibri" FontSize="28" FontWeight="Bold"><Run Text="What was your favorite part?"/></TextBlock>
+        <UniformGrid Margin="0,0,0,50" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="The video was my favorite part!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="272" Height="62" Click="OnlyDevelopersWillSeeThatThisChoiceDoesntMatter" FontFamily="Calibri" FontSize="15                 "/>
+            <Button Content="Your 'About Me' section was totally rad!" HorizontalAlignment="Left" Margin="37,0,-1,0" VerticalAlignment="Top" Width="272" Height="62" Click="OnlyDevelopersWillSeeThatThisChoiceDoesntMatter" FontFamily="Calibri" FontSize="15                 "/>
+            <Button Content="I LOVED the code sample!" HorizontalAlignment="Left" Margin="0,15,0,0" VerticalAlignment="Top" Width="272" Height="62" Click="OnlyDevelopersWillSeeThatThisChoiceDoesntMatter" FontFamily="Calibri" FontSize="15                 "/>
+            <Button Content="These questions are my favorite, for sure!" HorizontalAlignment="Left" Margin="37,15,-1,0" VerticalAlignment="Top" Width="272" Height="62" Click="OnlyDevelopersWillSeeThatThisChoiceDoesntMatter" FontFamily="Calibri" FontSize="15                 "/>
+
+        </UniformGrid>
+
+        <Frame x:Name="P2" Margin="0, 0, 0 0" Navigated="P2_Navigated"></Frame>
+    </Grid>
+</Page>
